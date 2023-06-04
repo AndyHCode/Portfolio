@@ -43,7 +43,7 @@ export default function Home() {
             <a href='https://github.com/AndyHCode' className='hover:text-teal-500'><AiFillGithub /></a>
           </dev>
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:w-96 md:h-96 shadow-2xl">
-            <Image src={andyPicture}/>
+            <Image alt="" src={andyPicture}/>
           </div>
         </section>
         <section>
@@ -73,7 +73,7 @@ export default function Home() {
           </div>
           <div className='xl:flex gap-10 justify-center'>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-offWhite-100 dark:bg-offDark-100 dark:text-offWhite-100 md:text-lg lg:text-2xl'>
-              <div className='flex justify-center'><Image src={code} width={100} height={100} /></div>
+              <div className='flex justify-center'><Image alt="" src={code} width={100} height={100} /></div>
               <h3 className='text-lg font-bold pt-8 pb-2 md:text-xl lg:text-2xl'>Languages/Tools That I Use</h3>
               <p className='text-gray-800 py-2 dark:text-offWhite-200'><spam className='text-teal-600 dark:text-teal-500'>Programming languages:</spam> C/C++, Python, Java</p>
               <p className='text-gray-800 py-2 dark:text-offWhite-200'><spam className='text-teal-600 dark:text-teal-500'>Markup languages:</spam> LaTex, Markdown</p>
@@ -82,7 +82,7 @@ export default function Home() {
             </div>
 
             <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-offWhite-100 xl:max-w-md dark:bg-offDark-100 dark:text-offWhite-100 md:text-lg lg:text-2xl'>
-              <div className='flex justify-center'><Image src={design} width={100} height={100} /></div>
+              <div className='flex justify-center'><Image alt="" src={design} width={100} height={100} /></div>
               <h3 className='text-lg font-bold pt-8 pb-2 md:text-xl lg:text-2xl'>Project: Kanban To-Do App</h3>
               <p className='py-2'>A kanban to-do app that has a built-in login system with renamable columns and customizable themes.</p>
               <h4 className='text-teal-600'>tools I use:</h4>
@@ -96,7 +96,7 @@ export default function Home() {
           </div>
 
             <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-offWhite-100 xl:max-w-md dark:bg-offDark-100 dark:text-offWhite-100 md:text-lg lg:text-2xl' >
-              <div className='flex justify-center'><Image src={consulting} width={100} height={100} /></div>
+              <div className='flex justify-center'><Image alt="" src={consulting} width={100} height={100} /></div>
               <h3 className='text-lg font-bold pt-8 pb-2 md:text-xl lg:text-2xl'>Project: Path Finding</h3>
               <p className='py-2'>A path finding program written in C++ using Dijkstra&apos;s algorithm that can find the shortest path from
               two coordinates with blockage which is all displayed on the terminal.</p>
