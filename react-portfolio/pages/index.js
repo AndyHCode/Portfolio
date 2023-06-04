@@ -8,7 +8,7 @@ import code from '../public/code.png'
 import consulting from '../public/consulting.png'
 import {useState, useEffect} from "react"
 import { useContext } from 'react';
-import { DarkModeContext } from '../pages/DarkModeContext';
+import { DarkModeContext } from './contexts/DarkModeContext';
 
 
 
