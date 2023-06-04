@@ -12,7 +12,6 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        burtons: "burtons",
         bubbles: "MPLUSRounded1",
       },
       colors:{

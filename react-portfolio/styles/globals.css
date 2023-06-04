@@ -20,11 +20,6 @@ a {
 }
 
 @font-face {
-  font-family: "burtons";
-  src: url('../public/Burtons.otf');
-}
-
-@font-face {
   font-family: 'MPLUSRounded1';
   font-style: bold;
   font-weight: 400;
