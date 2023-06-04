@@ -65,8 +65,7 @@ export default function Home() {
             <p className='text-md py-8 leading-2 text-gray-80 text-center max-w-4xl mx-auto md:text-lg lg:text-2xl'>
               Currently im learning about the basic of frontend development with some framework. 
               So mainly focusing on html, css, javascript, react, next.js, and tailwind. For example this 
-              Portfolio is written using mainly next.js and tailwind! I&apos;m also have some interest in machine
-              learning so I have been playing around with stable diffusion (AUTOMATIC111 version).
+              Portfolio is written using mainly next.js and tailwind!
             </p>
             </div>
             </div>
