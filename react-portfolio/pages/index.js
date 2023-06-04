@@ -68,9 +68,9 @@ export default function Home() {
             <div className='shadow-lg rounded-lg p-5 bg-offWhite-100 dark:bg-offDark-100 dark:text-offWhite-100'>
             <h3 className='text-3xl py-1 mt-5 text-center md:text-4xl lg:text-5xl underline'>What im currently learning</h3>
             <p className='text-md py-8 leading-2 text-gray-80 text-center max-w-4xl mx-auto md:text-lg lg:text-2xl'>
-              Currently im learning about the basic of frontend development with some framework. 
-              So mainly focusing on html, css, javascript, react, next.js, and tailwind. For example 
-              this <a href='https://github.com/AndyHCode/Portfolio' className='text-cyan-500 hover:text-cyan-400 hover:underline'>portfolio</a> is written using mainly next.js and tailwind!
+              Currently I'm learning the basics of frontend development with various frameworks. My main focus is on HTML, CSS, JavaScript, React, Next.js, and Tailwind. For example,
+              this <a href='https://github.com/AndyHCode/Portfolio' className='text-cyan-500 hover:text-cyan-400 hover:underline'>portfolio</a> is written using Next.js and Tailwind!
+
             </p>
             </div>
             </div>
@@ -89,7 +89,7 @@ export default function Home() {
               <div className='flex justify-center'><Image alt="" src={design} width={100} height={100} /></div>
               <h3 className='text-lg font-bold pt-8 pb-2 md:text-xl lg:text-2xl'>Project: Kanban To-Do App</h3>
               <p className='py-2'>A kanban to-do app that has a built-in login system with renamable columns and customizable themes.</p>
-              <h4 className='text-teal-600'>tools I use:</h4>
+              <h4 className='text-teal-600'>tools I used:</h4>
               <p className='text-gray-800 py-1 dark:text-offWhite-200'>Python</p>
               <p className='text-gray-800 py-1 dark:text-offWhite-200'>CustomTkinter</p>
               <p className='text-gray-800 py-1 pb-5 dark:text-offWhite-200'>PyInstaller</p>
@@ -104,7 +104,7 @@ export default function Home() {
               <h3 className='text-lg font-bold pt-8 pb-2 md:text-xl lg:text-2xl'>Project: Path Finding</h3>
               <p className='py-2'>A path finding program written in C++ using Dijkstra&apos;s algorithm that can find the shortest path from
               two coordinates with blockage which is all displayed on the terminal.</p>
-              <h4 className='text-teal-600 dark:text-teal-500'>tools I use:</h4>
+              <h4 className='text-teal-600 dark:text-teal-500'>tools I used:</h4>
               <p className='text-gray-800 py-1 pb-9 dark:text-offWhite-200'>C++</p>
               <a href='https://github.com/AndyHCode/Path-Finding-V2'>
               <button class="bg-teal-500 hover:bg-teal-400 text-white font-bold py-2 px-4 border-b-4 border-teal-700 hover:border-teal-500 rounded">
