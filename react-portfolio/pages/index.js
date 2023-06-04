@@ -7,13 +7,25 @@ import design from '../public/design.png'
 import code from '../public/code.png'
 import consulting from '../public/consulting.png'
 import {useState, useEffect} from "react"
-import { useContext } from 'react';
-import { DarkModeContext } from './contexts/DarkModeContext';
-
 
 
 export default function Home() {
-  const { darkMode, toggleDarkMode } = useContext(DarkModeContext);
+  const [darkMode, setDarkMode] = useState(false);
+
+  useEffect(() => {
+    const isDarkModeEnabled = localStorage.getItem('darkMode') === 'true';
+    setDarkMode(isDarkModeEnabled);
+    if (isDarkModeEnabled) {
+      document.documentElement.classList.add('dark');
+    }
+  }, []);
+
+  const toggleDarkMode = () => {
+    const newDarkMode = !darkMode;
+    setDarkMode(newDarkMode);
+    localStorage.setItem('darkMode', newDarkMode.toString());
+    document.documentElement.classList.toggle('dark', newDarkMode);
+  };
 
   return (
     <div className={darkMode ? 'dark' : ""}>
