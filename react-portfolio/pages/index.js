@@ -6,10 +6,15 @@ import andyPicture from '../public/AndyProfilePicture.png'
 import design from '../public/design.png'
 import code from '../public/code.png'
 import consulting from '../public/consulting.png'
-import {useState} from "react"
+import {useState, useEffect} from "react"
+import { useContext } from 'react';
+import { DarkModeContext } from '../pages/DarkModeContext';
+
+
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false)
+  const { darkMode, toggleDarkMode } = useContext(DarkModeContext);
+
   return (
     <div className={darkMode ? 'dark' : ""}>
     <div className='pb-1 bg-offWhite-200 dark:bg-offDark-200 font-bubbles'>
@@ -26,7 +31,7 @@ export default function Home() {
           <nev className="py-10 mb-12 flex justify-between">
             <h1 className='text-xl dark:text-offWhite-100 font-bold font-mono'></h1>
             <ul className='flex items-center'>
-              <li><BsFillMoonStarsFill onClick={()=>{setDarkMode(!darkMode)}} className='cursor-pointer text-xl dark:text-offWhite-100 hover:text-teal-600 dark:hover:text-teal-400' /></li>
+              <li><BsFillMoonStarsFill onClick={toggleDarkMode} className='cursor-pointer text-xl dark:text-offWhite-100 hover:text-teal-600 dark:hover:text-teal-400' /></li>
               <a href='https://drive.google.com/file/d/1d4t6l9mM2nqCHfiKVYpZvz5VXk4_bgp_/view?usp=sharing'><li className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 hover:from-cyan-400 hover:to-teal-400'> Resume</li></a>
             </ul>
           </nev>
