@@ -34,8 +34,8 @@ export default function Home() {
             <h2 className='text-6xl py-2 text-teal-500 font-semibold md:text-7xl lg:text-8xl'>Andy Huang</h2>
             <h3 className='text-2xl py-2 md:text-3xl lg:text-4xl dark:text-offWhite-100'>Computer Science Student at Wayne State</h3>
             <p className='text-md py-5 leading-2 text-gray-800 mx-auto max-w-4xl md:text-lg lg:text-2xl lg:leading-8 dark:text-offWhite-100'>
-              I'm a CS student in my third year of undergraduate studies, with experience in various programming languages and tools.
-              I'm currently looking for an internship/job to gain some experience in said field.
+              I&apos;m a CS student in my third year of undergraduate studies, with experience in various programming languages and tools.
+              I&apos;m currently looking for an internship/job to gain some experience in said field.
             </p>
           </dev>
           <dev className="text-5xl flex justify-center gap-16 py-3 text-gray-500 dark:text-gray-200">
@@ -65,7 +65,7 @@ export default function Home() {
             <p className='text-md py-8 leading-2 text-gray-80 text-center max-w-4xl mx-auto md:text-lg lg:text-2xl'>
               Currently im learning about the basic of frontend development with some framework. 
               So mainly focusing on html, css, javascript, react, next.js, and tailwind. For example this 
-              Portfolio is written using mainly next.js and tailwind! I'm also have some interest in machine
+              Portfolio is written using mainly next.js and tailwind! I&apos;m also have some interest in machine
               learning so I have been playing around with stable diffusion (AUTOMATIC111 version).
             </p>
             </div>
@@ -98,7 +98,7 @@ export default function Home() {
             <div className='text-center shadow-lg p-10 rounded-xl my-10 bg-offWhite-100 xl:max-w-md dark:bg-offDark-100 dark:text-offWhite-100 md:text-lg lg:text-2xl' >
               <div className='flex justify-center'><Image src={consulting} width={100} height={100} /></div>
               <h3 className='text-lg font-bold pt-8 pb-2 md:text-xl lg:text-2xl'>Project: Path Finding</h3>
-              <p className='py-2'>A path finding program written in C++ using Dijkstra's algorithm that can find the shortest path from
+              <p className='py-2'>A path finding program written in C++ using Dijkstra&apos;s algorithm that can find the shortest path from
               two coordinates with blockage which is all displayed on the terminal.</p>
               <h4 className='text-teal-600 dark:text-teal-500'>tools I use:</h4>
               <p className='text-gray-800 py-1 pb-9 dark:text-offWhite-200'>C++</p>
