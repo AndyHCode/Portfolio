@@ -64,8 +64,8 @@ export default function Home() {
             <h3 className='text-3xl py-1 mt-5 text-center md:text-4xl lg:text-5xl underline'>What im currently learning</h3>
             <p className='text-md py-8 leading-2 text-gray-80 text-center max-w-4xl mx-auto md:text-lg lg:text-2xl'>
               Currently im learning about the basic of frontend development with some framework. 
-              So mainly focusing on html, css, javascript, react, next.js, and tailwind. For example this 
-              Portfolio is written using mainly next.js and tailwind!
+              So mainly focusing on html, css, javascript, react, next.js, and tailwind. For example 
+              this <a href='https://github.com/AndyHCode/Portfolio' className='text-cyan-500 hover:text-cyan-400 hover:underline'>portfolio</a> is written using mainly next.js and tailwind!
             </p>
             </div>
             </div>
