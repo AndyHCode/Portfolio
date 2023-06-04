@@ -24,3 +24,11 @@ a {
   src: url('../public/Burtons.otf');
 }
 
+@font-face {
+  font-family: 'MPLUSRounded1';
+  font-style: bold;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../public/MPLUSRounded1c-Regular.ttf");
+}
+

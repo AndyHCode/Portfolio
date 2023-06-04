@@ -13,6 +13,7 @@ module.exports = {
     extend: {
       fontFamily: {
         burtons: "burtons",
+        bubbles: "MPLUSRounded1",
       },
       colors:{
         'offWhite':{
