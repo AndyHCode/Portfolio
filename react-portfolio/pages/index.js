@@ -68,7 +68,7 @@ export default function Home() {
             <div className='shadow-lg rounded-lg p-5 bg-offWhite-100 dark:bg-offDark-100 dark:text-offWhite-100'>
             <h3 className='text-3xl py-1 mt-5 text-center md:text-4xl lg:text-5xl underline'>What im currently learning</h3>
             <p className='text-md py-8 leading-2 text-gray-80 text-center max-w-4xl mx-auto md:text-lg lg:text-2xl'>
-              Currently I'm learning the basics of frontend development with various frameworks. My main focus is on HTML, CSS, JavaScript, React, Next.js, and Tailwind. For example,
+              Currently I&apos;m learning the basics of frontend development with various frameworks. My main focus is on HTML, CSS, JavaScript, React, Next.js, and Tailwind. For example,
               this <a href='https://github.com/AndyHCode/Portfolio' className='text-cyan-500 hover:text-cyan-400 hover:underline'>portfolio</a> is written using Next.js and Tailwind!
 
             </p>
