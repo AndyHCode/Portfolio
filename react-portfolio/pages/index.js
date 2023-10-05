@@ -44,7 +44,7 @@ export default function Home() {
             <h1 className='text-xl dark:text-offWhite-100 font-bold font-mono'></h1>
             <ul className='flex items-center'>
               <li><BsFillMoonStarsFill onClick={toggleDarkMode} className='cursor-pointer text-xl dark:text-offWhite-100 hover:text-teal-600 dark:hover:text-teal-400' /></li>
-              <a href='https://drive.google.com/file/d/1d4t6l9mM2nqCHfiKVYpZvz5VXk4_bgp_/view?usp=sharing'><li className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 hover:from-cyan-400 hover:to-teal-400'> Resume</li></a>
+              <a href='https://drive.google.com/file/d/11wJT1ccO3NT92NXDPvvUNWZrnh4YPz5W/view?usp=sharing'><li className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 hover:from-cyan-400 hover:to-teal-400'> Resume</li></a>
             </ul>
           </nev>
           <dev className="text-center p-10">
